@@ -7,3 +7,4 @@ alias l="ls -l --block-size=M"
 alias clip='xclip -sel clip'
 alias ssh_pub='cat ~/.ssh/id_ed25519.pub | clip'
 alias dataset_zip='zip -r ./multiconer.zip ./datasets/multiconer/'
+alias tex="pdflatex tex.tex && evince tex.pdf"
