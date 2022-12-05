@@ -3,6 +3,10 @@ function run() {
   g++ "$1" && ./a.out;
 }
 
+function his() {
+  history | grep "$1";
+}
+
 alias s="git status -uno"
 alias github="cat ~/github.txt | clip"
 alias login="ssh h_ver@login.encs.concordia.ca"
@@ -12,7 +16,6 @@ alias l="ls -l --block-size=M"
 alias clip='xclip -sel clip'
 alias ssh_pub='cat ~/.ssh/id_ed25519.pub | clip'
 alias plus="cd /home/harsh/projects/c++"
-alias aliases="nvim ~/aliases/aliases.sh"
 alias nvim_init="nvim ~/.config/nvim/init.vim"
 alias f="fg"
 alias vimrc="vim ~/.vimrc"
