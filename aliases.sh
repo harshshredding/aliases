@@ -17,6 +17,10 @@ function r() {
   grep -Ril "$1";
 }
 
+function install_kernel() {
+  python -m ipykernel install --user --name $1 --display-name "$2"
+}
+
 alias s="git status -uno"
 alias github="cat ~/github.txt | clip"
 alias login="ssh h_ver@login.encs.concordia.ca"
@@ -43,3 +47,4 @@ alias ls="exa"
 alias every="cd ~/every-single-baseline"
 alias brc="vim ~/.bashrc"
 alias clone="echo 'git clone https://github.com/harshshredding/every-single-baseline.git' | clip"
+alias plaig="cd ~/PycharmProjects/plaigerism"
