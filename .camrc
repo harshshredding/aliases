@@ -8,3 +8,4 @@ alias todo='cd ~/todo && vim todo.txt && git add todo.txt && git commit -m "Upda
 alias c='camer'
 
 alias viz='cd ~/nlp_viz'
+alias gtk='cd ~/gtk4-rs'
