@@ -9,3 +9,4 @@ alias c='camer'
 
 alias viz='cd ~/nlp_viz'
 alias gtk='cd ~/gtk4-rs'
+alias pre_test='pytest --no-summary preprocessor_tests/'
