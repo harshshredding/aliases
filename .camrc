@@ -15,3 +15,6 @@ alias pre_test='pytest --no-summary preprocessor_tests/'
 alias test_pre='pytest preprocessor_tests/ -W ignore::DeprecationWarning -s'
 
 alias folder='xdg-open .'
+
+alias ctodo='cd ~/todo'
+alias rep='pandoc report.md -o report.pdf && m report.pdf'
