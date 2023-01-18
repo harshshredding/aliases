@@ -21,6 +21,15 @@ function install_kernel() {
   python -m ipykernel install --user --name $1 --display-name "$2"
 }
 
+function todo() {
+  cd ~/todo 
+  vim todo.txt
+  git add todo.txt
+  git commit -m "Update TODO"
+  git push
+  cd -
+}
+
 alias s="git status -uno"
 alias github="cat ~/github.txt | clip"
 alias login="ssh h_ver@login.encs.concordia.ca"
@@ -42,7 +51,6 @@ alias sys_book="mupdf ~/Documents/books/systems.pdf"
 alias g="cd ~/Documents/grading"
 alias m="mupdf"
 alias disable="sudo sysctl net.ipv6.conf.all.disable_ipv6=1"
-alias todo="vim ~/todo.txt"
 alias ls="exa"
 alias every="cd ~/every-single-baseline"
 alias brc="vim ~/.bashrc"

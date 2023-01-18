@@ -4,7 +4,6 @@
 alias alias_manager='cd /Users/harshverma/camer-alias-manager'
 alias cdoc='cargo doc'
 alias cls='camer ls'
-alias todo='cd ~/todo && vim todo.txt && git add todo.txt && git commit -m "Update TODO" && git push && cd -'
 alias c='camer'
 
 alias viz='cd ~/nlp_viz'
@@ -18,3 +17,6 @@ alias folder='xdg-open .'
 
 alias ctodo='cd ~/todo'
 alias rep='pandoc report.md -o report.pdf && m report.pdf'
+alias caliases='cd ~/aliases'
+alias p='python'
+alias test_util='pytest util_tests/'
