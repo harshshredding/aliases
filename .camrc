@@ -20,3 +20,6 @@ alias rep='pandoc report.md -o report.pdf && m report.pdf'
 alias caliases='cd ~/aliases'
 alias p='python'
 alias test_util='pytest util_tests/'
+
+alias add='git add -u'
+alias chrome='sudo apt-get update && sudo apt-get --only-upgrade install google-chrome-stable'
